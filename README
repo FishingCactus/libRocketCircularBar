@@ -1,10 +1,9 @@
-LibRocketHoverButton - README
+LibRocketCircularBar - README
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 DESCRIPTION
 -----------
-    When using natural interface such as kinect, clicking on a button is not easy.
-	This plugin provides a button that is activated when the mouse stays over it.
+    The circular bar is an element that can be used as a circular progress bar.
 	
 REQUIREMENTS
 ------------
@@ -12,19 +11,25 @@ REQUIREMENTS
 
 BUILDING
 --------
-    Build with "RocketHoverButton.vcxproj" or "RocketHoverButton.vcproj", the dlls and libs will be created in the bin\ folder.
+    Build with "RocketCircularBar.vcxproj" or "RocketCircularBar.vcproj", the dlls and libs will be created in the bin\ folder.
 
 USE
 ---
 	Copy the dlls in a folder where your application can find them. And in your "rcss" file instance
-	a button (click-time is the time required with the cursor over the button to trigger a click event on it,
-	default is 1.5 seconds):
+	a circularbar (gauge-src is the url of the image to use for the progress bar):
 	
-	button
-	{	
-		click-time:2.0;
+	circularbar
+	{
+		width:	73px;
+		height:	73px;
+		display:	block;
+		position:	absolute;
+		left:	0px;
+		top:	0px;
+		vertical-align:	middle;
+		gauge-src:	../textures/circular_loader.png;
 	}
 	
 	And in your "rml" just do:
 	
-	<button/>
+	<circularbar/>
