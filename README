@@ -1,0 +1,30 @@
+LibRocketHoverButton - README
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+DESCRIPTION
+-----------
+    When using natural interface such as kinect, clicking on a button is not easy.
+	This plugin provides a button that is activated when the mouse stays over it.
+	
+REQUIREMENTS
+------------
+	${LIBROCKET} environment variable referring to libRocket root directory.
+
+BUILDING
+--------
+    Build with "RocketHoverButton.vcxproj" or "RocketHoverButton.vcproj", the dlls and libs will be created in the bin\ folder.
+
+USE
+---
+	Copy the dlls in a folder where your application can find them. And in your "rcss" file instance
+	a button (click-time is the time required with the cursor over the button to trigger a click event on it,
+	default is 1.5 seconds):
+	
+	button
+	{	
+		click-time:2.0;
+	}
+	
+	And in your "rml" just do:
+	
+	<button/>
