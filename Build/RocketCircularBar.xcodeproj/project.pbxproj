@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B5E27A15495869006F174A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B5E27915495869006F174A /* Foundation.framework */; };
+		B9B5E28B154958C8006F174A /* RocketCircularBar-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */; };
+		B9B5E297154959BD006F174A /* ElementCircularBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E294154959BD006F174A /* ElementCircularBar.h */; };
+		B9B5E298154959BD006F174A /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E295154959BD006F174A /* Header.h */; };
+		B9B5E299154959BD006F174A /* CircularBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E296154959BD006F174A /* CircularBar.h */; };
+		B9B5E29C15495A23006F174A /* CircularBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E29A15495A23006F174A /* CircularBar.cpp */; };
+		B9B5E29D15495A23006F174A /* ElementCircularBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E29B15495A23006F174A /* ElementCircularBar.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9B5E27615495869006F174A /* libRocketCircularBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRocketCircularBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B5E27915495869006F174A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RocketCircularBar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B9B5E294154959BD006F174A /* ElementCircularBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ElementCircularBar.h; path = ../Include/Rocket/CircularBar/ElementCircularBar.h; sourceTree = SOURCE_ROOT; };
+		B9B5E295154959BD006F174A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Include/Rocket/CircularBar/Header.h; sourceTree = SOURCE_ROOT; };
+		B9B5E296154959BD006F174A /* CircularBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularBar.h; path = ../Include/Rocket/CircularBar.h; sourceTree = SOURCE_ROOT; };
+		B9B5E29A15495A23006F174A /* CircularBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CircularBar.cpp; path = ../Source/CircularBar/CircularBar.cpp; sourceTree = SOURCE_ROOT; };
+		B9B5E29B15495A23006F174A /* ElementCircularBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ElementCircularBar.cpp; path = ../Source/CircularBar/ElementCircularBar.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B5E27315495869006F174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B5E27A15495869006F174A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B5E26B15495869006F174A = {
+			isa = PBXGroup;
+			children = (
+				B9B5E293154959BD006F174A /* CircularBar */,
+				B9B5E296154959BD006F174A /* CircularBar.h */,
+				B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */,
+				B9B5E27815495869006F174A /* Frameworks */,
+				B9B5E27715495869006F174A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B5E27715495869006F174A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5E27615495869006F174A /* libRocketCircularBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B5E27815495869006F174A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5E27915495869006F174A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B5E293154959BD006F174A /* CircularBar */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5E29A15495A23006F174A /* CircularBar.cpp */,
+				B9B5E29B15495A23006F174A /* ElementCircularBar.cpp */,
+				B9B5E294154959BD006F174A /* ElementCircularBar.h */,
+				B9B5E295154959BD006F174A /* Header.h */,
+			);
+			name = CircularBar;
+			path = ../Include/Rocket/CircularBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B9B5E27415495869006F174A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B5E28B154958C8006F174A /* RocketCircularBar-Prefix.pch in Headers */,
+				B9B5E297154959BD006F174A /* ElementCircularBar.h in Headers */,
+				B9B5E298154959BD006F174A /* Header.h in Headers */,
+				B9B5E299154959BD006F174A /* CircularBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9B5E27515495869006F174A /* RocketCircularBariOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B5E28315495869006F174A /* Build configuration list for PBXNativeTarget "RocketCircularBariOS" */;
+			buildPhases = (
+				B9B5E27215495869006F174A /* Sources */,
+				B9B5E27315495869006F174A /* Frameworks */,
+				B9B5E27415495869006F174A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketCircularBariOS;
+			productName = RocketCircularBar;
+			productReference = B9B5E27615495869006F174A /* libRocketCircularBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B5E26D15495869006F174A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B9B5E27015495869006F174A /* Build configuration list for PBXProject "RocketCircularBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9B5E26B15495869006F174A;
+			productRefGroup = B9B5E27715495869006F174A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B5E27515495869006F174A /* RocketCircularBariOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B5E27215495869006F174A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B5E29C15495A23006F174A /* CircularBar.cpp in Sources */,
+				B9B5E29D15495A23006F174A /* ElementCircularBar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9B5E28115495869006F174A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../libRocket/Include,
+					../Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = ../../IOS/BUILD/LIBS;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B9B5E28215495869006F174A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../libRocket/Include,
+					../Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = ../../IOS/BUILD/LIBS;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		B9B5E28415495869006F174A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RocketCircularBar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RocketCircularBar-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B9B5E28515495869006F174A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RocketCircularBar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RocketCircularBar-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B5E27015495869006F174A /* Build configuration list for PBXProject "RocketCircularBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B5E28115495869006F174A /* Debug */,
+				B9B5E28215495869006F174A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B5E28315495869006F174A /* Build configuration list for PBXNativeTarget "RocketCircularBariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B5E28415495869006F174A /* Debug */,
+				B9B5E28515495869006F174A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B5E26D15495869006F174A /* Project object */;
+}
