@@ -10,7 +10,7 @@ solution "libRocketCircularBar"
         language "C++"
         files { "../Source/CircularBar/**.cpp", "../Source/CircularBar/**.h" }
         includedirs{ rocket_dir .. "Include/", "../Include/" }
-        
+        targetdir "../Bin/"
         
         configuration "Debug"
             targetname "RocketCircularBar_d"
