@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B971A79A155ABEEC0064CB76 /* CircularBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E29A15495A23006F174A /* CircularBar.cpp */; };
+		B971A79B155ABEEC0064CB76 /* ElementCircularBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E29B15495A23006F174A /* ElementCircularBar.cpp */; };
+		B971A79D155ABEEC0064CB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B5E27915495869006F174A /* Foundation.framework */; };
+		B971A79F155ABEEC0064CB76 /* RocketCircularBar-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */; };
+		B971A7A0155ABEEC0064CB76 /* ElementCircularBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E294154959BD006F174A /* ElementCircularBar.h */; };
+		B971A7A1155ABEEC0064CB76 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E295154959BD006F174A /* Header.h */; };
+		B971A7A2155ABEEC0064CB76 /* CircularBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E296154959BD006F174A /* CircularBar.h */; };
 		B9B5E27A15495869006F174A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B5E27915495869006F174A /* Foundation.framework */; };
 		B9B5E28B154958C8006F174A /* RocketCircularBar-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */; };
 		B9B5E297154959BD006F174A /* ElementCircularBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5E294154959BD006F174A /* ElementCircularBar.h */; };
@@ -17,7 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9B5E27615495869006F174A /* libRocketCircularBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRocketCircularBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B971A7A6155ABEEC0064CB76 /* libRocketCircularBarOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRocketCircularBarOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B5E27615495869006F174A /* libRocketCircularBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRocketCircularBar.a; path = libRocketCircularBariOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B5E27915495869006F174A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9B5E28A154958C8006F174A /* RocketCircularBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RocketCircularBar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		B9B5E294154959BD006F174A /* ElementCircularBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ElementCircularBar.h; path = ../Include/Rocket/CircularBar/ElementCircularBar.h; sourceTree = SOURCE_ROOT; };
@@ -28,6 +36,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B971A79C155ABEEC0064CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B971A79D155ABEEC0064CB76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B5E27315495869006F174A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				B9B5E27615495869006F174A /* libRocketCircularBar.a */,
+				B971A7A6155ABEEC0064CB76 /* libRocketCircularBarOSX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +98,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B971A79E155ABEEC0064CB76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B971A79F155ABEEC0064CB76 /* RocketCircularBar-Prefix.pch in Headers */,
+				B971A7A0155ABEEC0064CB76 /* ElementCircularBar.h in Headers */,
+				B971A7A1155ABEEC0064CB76 /* Header.h in Headers */,
+				B971A7A2155ABEEC0064CB76 /* CircularBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B5E27415495869006F174A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +123,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B971A798155ABEEC0064CB76 /* RocketCircularBarOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B971A7A3155ABEEC0064CB76 /* Build configuration list for PBXNativeTarget "RocketCircularBarOSX" */;
+			buildPhases = (
+				B971A799155ABEEC0064CB76 /* Sources */,
+				B971A79C155ABEEC0064CB76 /* Frameworks */,
+				B971A79E155ABEEC0064CB76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketCircularBarOSX;
+			productName = RocketCircularBar;
+			productReference = B971A7A6155ABEEC0064CB76 /* libRocketCircularBarOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		B9B5E27515495869006F174A /* RocketCircularBariOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B5E28315495869006F174A /* Build configuration list for PBXNativeTarget "RocketCircularBariOS" */;
@@ -133,11 +178,21 @@
 			projectRoot = "";
 			targets = (
 				B9B5E27515495869006F174A /* RocketCircularBariOS */,
+				B971A798155ABEEC0064CB76 /* RocketCircularBarOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B971A799155ABEEC0064CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B971A79A155ABEEC0064CB76 /* CircularBar.cpp in Sources */,
+				B971A79B155ABEEC0064CB76 /* ElementCircularBar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B5E27215495869006F174A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +205,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B971A7A4155ABEEC0064CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DSTROOT = /tmp/RocketCircularBar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RocketCircularBar-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = ../../OSX/BUILD/LIBS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RocketCircularBarOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B971A7A5155ABEEC0064CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DSTROOT = /tmp/RocketCircularBar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RocketCircularBar-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = ../../OSX/BUILD/LIBS;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RocketCircularBarOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B9B5E28115495869006F174A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -228,6 +313,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B971A7A3155ABEEC0064CB76 /* Build configuration list for PBXNativeTarget "RocketCircularBarOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B971A7A4155ABEEC0064CB76 /* Debug */,
+				B971A7A5155ABEEC0064CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9B5E27015495869006F174A /* Build configuration list for PBXProject "RocketCircularBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
